@@ -1,0 +1,115 @@
+Diapason        Rule Formating  Type    Text Color      Text Bold       Text Italics    Text Strikethrougn      Background Color        Text Underline
+B228    Text ends with  Number  None    N       Y       Y       Standart        Y
+A1      Text does not contain   Date    Standart        Y       N       N       Custom  N
+A1000   Not equal       Text    Custom  Y       Y       N       None    Y
+B228    Does not contain data   Default Custom  N       N       Y       None    N
+Z1      Contains data   Default Standart        N       Y       Y       Custom  Y
+B228    Not between     Text    None    Y       N       N       Standart        N
+B228    Contains data   Number  None    Y       N       N       None    N
+Z1000   Text starts with        Date    Custom  Y       N       Y       Custom  Y
+Z1      Less than or equal to   Date    Custom  N       Y       N       Standart        N
+A1      Less    Text    None    N       Y       Y       None    Y
+A1000   Between Number  None    N       N       Y       Custom  N
+A1      Date after      Default Standart        Y       N       N       Standart        Y
+Z1000   Date    Number  Standart        N       Y       N       None    N
+A1000   Text starts with        Text    Standart        N       Y       N       Standart        N
+A1:A3   Text starts with        Date    None    N       Y       Y       None    Y
+Z1      Text exactly    Number  None    Y       N       Y       None    Y
+B228    Text does not contain   Text    Custom  N       Y       Y       Custom  Y
+A1      Between Number  Custom  Y       Y       N       None    Y
+B228    Text contains   Date    Standart        N       N       N       None    Y
+B228    Less    Number  Custom  Y       N       N       Standart        N
+Z1      Text contains   Text    None    Y       Y       Y       Custom  N
+A1000   Text contains   Default Custom  N       Y       N       Standart        N
+A1:A3   More    Default Custom  Y       N       N       Standart        N
+A1      Does not contain data   Default None    Y       Y       N       Standart        Y
+A1:A3   Text ends with  Text    Standart        Y       N       N       Custom  N
+B228    Date after      Text    None    N       Y       Y       None    N
+A1      Text contains   Number  Standart        N       Y       N       Standart        Y
+Z1000   Greater than or equal to        Default None    N       Y       Y       Standart        Y
+Z1000   Between Text    Standart        Y       N       Y       Standart        N
+A1000   Text exactly    Date    Standart        N       Y       N       Standart        N
+A1      Equal to        Default Standart        Y       N       Y       None    Y
+A1:A3   Date    Default Custom  Y       N       Y       Standart        Y
+Z1      Less    Date    Standart        Y       N       Y       Custom  Y
+Z1      Text ends with  Default Custom  Y       N       N       None    N
+Z1      Text starts with        Number  Standart        N       N       Y       Standart        N
+A1:A3   Not equal       Number  Standart        N       N       Y       Standart        N
+B228    More    Text    Standart        N       Y       Y       Custom  Y
+A1      Text ends with  Date    Custom  N       Y       N       Custom  N
+A1      Date    Date    None    N       Y       Y       Custom  Y
+A1000   Text does not contain   Default None    N       N       N       None    Y
+Z1      Greater than or equal to        Date    Standart        Y       N       N       Custom  N
+Z1      Equal to        Number  None    N       Y       N       Custom  N
+Z1000   Contains data   Date    Custom  Y       Y       N       Standart        Y
+A1      Contains data   Text    None    Y       Y       N       None    Y
+A1000   Less    Default Custom  Y       Y       N       Standart        Y
+A1      Text starts with        Default None    Y       N       N       Custom  N
+Z1000   More    Date    None    N       N       Y       None    Y
+A1:A3   Contains data   Number  None    Y       Y       Y       Custom  Y
+Z1      Text does not contain   Number  None    Y       Y       N       Standart        Y
+A1      Not between     Default Custom  N       Y       Y       Custom  Y
+A1:A3   Text contains   Date    Standart        Y       Y       Y       None    Y
+A1000   Does not contain data   Date    Standart        N       Y       N       Custom  Y
+A1      Not equal       Default None    N       N       Y       Custom  Y
+B228    Your formula    Number  Custom  Y       Y       N       None    N
+B228    Text exactly    Default Custom  N       N       Y       Custom  Y
+A1000   Date    Text    Standart        Y       Y       N       None    Y
+A1:A3   Text does not contain   Default Standart        N       Y       Y       None    Y
+B228    Not equal       Date    Custom  Y       N       N       Custom  Y
+Z1000   Less than or equal to   Number  Standart        Y       N       Y       Custom  Y
+Z1000   Equal to        Text    Custom  Y       Y       N       Standart        N
+Z1      Date before     Text    Custom  Y       Y       N       Standart        Y
+B228    Date    Date    Custom  Y       N       Y       Standart        Y
+Z1000   Does not contain data   Number  Custom  Y       N       N       None    Y
+A1:A3   Between Date    Custom  N       Y       Y       Standart        Y
+A1000   Your formula    Default None    N       N       Y       Standart        Y
+Z1000   Text exactly    Text    None    N       N       N       None    Y
+A1000   Text ends with  Number  Custom  N       N       Y       Standart        N
+Z1      Not between     Number  Standart        Y       N       N       None    N
+A1:A3   Date after      Number  Custom  Y       N       Y       Custom  N
+Z1      More    Number  Custom  N       N       N       Standart        Y
+Z1000   Not equal       Date    None    N       N       N       None    N
+Z1      Your formula    Date    Standart        Y       Y       N       Custom  N
+A1:A3   Text exactly    Date    Custom  Y       N       N       Standart        N
+A1000   Date after      Date    Standart        Y       Y       N       Custom  Y
+A1:A3   Greater than or equal to        Text    Custom  Y       Y       N       None    Y
+Z1000   Text contains   Number  Custom  N       Y       Y       Standart        N
+A1:A3   Date before     Number  Standart        N       N       Y       None    N
+Z1      Does not contain data   Text    None    N       N       Y       Custom  N
+B228    Date before     Date    None    Y       N       N       Custom  Y
+A1:A3   Equal to        Date    None    N       N       Y       None    Y
+A1      Your formula    Text    None    Y       N       N       Custom  Y
+A1      Text exactly    Text    Custom  Y       N       Y       Custom  N
+A1000   Contains data   Date    Custom  N       N       N       None    N
+B228    Between Default Custom  Y       N       N       Standart        N
+A1000   Not between     Date    Custom  N       Y       N       Custom  Y
+Z1000   Text ends with  Number  None    Y       Y       Y       Custom  Y
+Z1      Between Text    Standart        N       Y       N       Custom  Y
+A1      More    Date    Standart        Y       N       N       None    N
+Z1000   Not between     Date    Standart        N       N       Y       Standart        N
+A1:A3   Less than or equal to   Default None    N       N       N       None    N
+A1000   Less than or equal to   Text    Standart        Y       Y       N       None    Y
+B228    Equal to        Text    None    N       N       Y       None    Y
+A1:A3   Not between     Number  Standart        N       Y       N       Custom  Y
+Z1000   Date before     Default Standart        Y       N       N       None    N
+A1      Less than or equal to   Text    Custom  N       Y       Y       Standart        N
+A1000   Date before     Text    Standart        N       Y       N       Custom  N
+Z1      Date    Number  Standart        N       N       Y       Standart        N
+A1:A3   Does not contain data   Number  Custom  N       Y       N       None    Y
+B228    Greater than or equal to        Number  None    Y       N       N       Standart        N
+A1000   More    Number  Custom  Y       Y       Y       Standart        Y
+Z1      Not equal       Text    Custom  N       Y       Y       Custom  N
+A1      Date before     Text    Custom  N       Y       N       Standart        N
+A1:A3   Your formula    Date    Custom  Y       N       N       Custom  N
+A1:A3   Less    Number  Custom  N       N       Y       Standart        N
+A1      Greater than or equal to        Number  None    N       Y       N       Custom  Y
+A1000   Greater than or equal to        Default Standart        N       Y       N       None    Y
+B228    Less than or equal to   Default Standart        Y       Y       Y       None    N
+A1000   Equal to        Number  Standart        N       N       N       Custom  N
+Z1000   Less    Text    Standart        Y       Y       Y       Custom  Y
+Z1000   Text does not contain   Date    Custom  N       N       Y       None    N
+B228    Text starts with        Text    Standart        N       N       Y       None    N
+Z1      Date after      Number  Standart        N       Y       N       Standart        Y
+Z1000   Your formula    Text    Standart        N       N       N       Custom  Y
+Z1000   Date after      Date    Standart        N       N       Y       Custom  N

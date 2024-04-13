@@ -1,0 +1,24 @@
+Diapason: A1, A1000, Z1, Z1000, B228, A1:A3
+Rule Formating: Does not contain data, Contains data, Text contains, Text does not contain, Text starts with, Text ends with, Text exactly, Date, Date before, Date after, More, Greater than or equal to, Less, Less than or equal to, Equal to, Not equal, Between, Not between, Your formula
+Type: Default, Number, Date, Text
+Text Color: Standart, Custom, None
+Text Bold: Y, N
+Text Italics: Y, N 
+Text Strikethrougn: Y, N
+Background Color: Standart, Custom, None
+Text Underline: Y, N
+
+IF [Text Underline] = "N" THEN [ColorUnderline] = "None";
+IF [Rule Formatting] = "Does not contain data" THEN [Text Bold] = "N";
+IF [Rule Formatting] = "Does not contain data" THEN  [Text Italics] = "N";
+IF [Rule Formatting] = "Does not contain data" THEN  [Text Strikethrougn] = "N";
+IF [Rule Formatting] = "Does not contain data" THEN  [Text Color] = "None";
+
+IF [Rule Formatting] in {"Text contains", "Text does not contain", "Text starts with", "Text ends with", "Text exactly"} THEN [Type] = "Text";
+IF [Rule Formatting] in {"Date", "Date before", "Date after"} THEN [Type] = "Date";
+IF [Rule Formatting] in {"Does not contain data", "Contains data"} THEN [Type] = "Default";
+IF [Rule Formatting] in {"More", "Greater than or equal to", "Less", "Less than or equal to", "Equal to", "Not equal", "Between", "Not between", "Your formula"} THEN [Type] = "Number";
+
+
+
+

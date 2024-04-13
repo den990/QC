@@ -1,0 +1,43 @@
+Align character height: Y, N
+Вouble strikethrough: Y, N
+Color: #C00000, #F00000, #FFC000, #FF0000, #90D050, #00B050, #00B0F0, #0070C0, #002060, #7030A0
+ColorUnderline: None, #90D050, #00B050, #00B0F0, #0070C0, #002060, #7030A0, #FFC000, #FF0000, #C00000
+Font: Albertus, Aldus, Aristotel, Academy Rough, Ottisk
+Lowercase: Y, N
+Shift: -100, 0, 10, 50, 100, 12.97, -14.03
+Size: 1, 10, 10.2, 4000
+Strikethrough: Y, N
+Style: Regular, Italics, Bold, Bold Italics
+Subscript: Y, N
+Superscript: Y, N
+Underline: None, Ordinary line, Dotted line, Bold line, Bold dotted line
+Uppercase: Y, N
+
+IF [Underline] = "None" THEN [ColorUnderline] = "None";
+IF [Subscript] = "Y" THEN [Superscript] = "N";
+IF [Superscript] = "Y" THEN [Subscript] = "N";
+IF [Shift] > 0 THEN [Superscript] = "Y";
+IF [Shift] < 0 THEN [Subscript] = "Y";
+IF [Shift] = 0 THEN [Superscript] = "N";
+IF [Shift] = 0 THEN [Subscript] = "N";
+
+
+______
+Diapason: A1, A1000, Z1, Z1000, B228
+Rule Formating: Not Data, Text, Date, Formula 
+Text Color: #C00000, #F00000, #FFC000, #FF0000, #90D050, #00B050, #00B0F0, #0070C0, #002060, #7030A0
+Text Bold: Y, N, None
+Text Italics: Y, N, None
+Text Strikethrougn: Y, N, None
+Background Color: #FFFFFF, #FFFF00, #00FFFF, #FF00FF
+Text Size: 8, 12, 13.1, 20, 100, None
+Text Font: Arial, Times New Roman, Calibri, Courier New, Montserrat, None
+Text Underline: Y, N, None
+Text Color Underline: None, #90D050, #00B050, #00B0F0, #0070C0, #002060, #7030A0, #FFC000, #FF0000, #C00000
+Text Lowercase: Y, N, None
+Text Uppercase: Y, N, None
+
+IF [Text Underline] = "N" THEN [ColorUnderline] = "None";
+IF [Rule Formating] = "Not Data" THEN [Text Bold] = "None" AND [Text Italics] = "None" AND [Text Strikethrougn] = "None" AND [Text Size] = "None" AND [Text Font] = "None" AND [Text Underline] = "None" AND [Text Color Underline] = "None" AND [Text Lowercase] = "None" AND [Text Uppercase] = "None"
+
+
