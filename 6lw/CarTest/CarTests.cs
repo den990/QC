@@ -231,7 +231,7 @@ namespace CarTests
             car.SetSpeed(20);
 
             // Assert
-            Assert.AreEqual(20, car.GetSpeed());
+            Assert.AreEqual(20, car.GetSpeed(), "Invalid speed");
             Assert.AreEqual(Direction.FORWARD, car.GetDirection(), "Invalid direction");
         }
 
@@ -262,7 +262,7 @@ namespace CarTests
             car.SetSpeed(-10);
 
             // Assert
-            Assert.AreEqual(0, car.GetSpeed());
+            Assert.AreEqual(0, car.GetSpeed(), "Invalid speed");
             Assert.AreEqual(Direction.IMMOBILE, car.GetDirection(), "Invalid direction");
         }
 
@@ -278,7 +278,7 @@ namespace CarTests
             car.SetSpeed(10);
 
             // Assert
-            Assert.AreEqual(10, car.GetSpeed());
+            Assert.AreEqual(-10, car.GetSpeed(), "Invalid speed");
             Assert.AreEqual(Direction.BACKWARD, car.GetDirection(), "Invalid direction");
 
         }
